@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://johnlreyes.github.io/front-page/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://johnlreyes.github.io/front-page/</loc>
+    <loc>/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://johnlreyes.github.io/front-page/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   

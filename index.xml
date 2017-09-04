@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>John L. Reyes</title>
-    <link>http://johnlreyes.github.io/front-page/</link>
+    <link>/</link>
     <description>Recent content on John L. Reyes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="http://johnlreyes.github.io/front-page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
