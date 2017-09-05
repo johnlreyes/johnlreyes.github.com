@@ -1,11 +1,10 @@
 
 var enableLogs = true;
 var cacheName = 'offline';
-var version = '0.7';
+var version = '0.1';
 var cache = cacheName + '-' + version;
 var fileList = [
-    'index.html',
-    'sw-loader.js'
+    'index.html'
 ];
 
 self.addEventListener('install', function(event) {
