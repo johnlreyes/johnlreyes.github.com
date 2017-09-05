@@ -1,7 +1,7 @@
 
 var enableLogs = true;
 var cacheName = 'offline';
-var version = '0.1';
+var version = '0.2';
 var cache = cacheName + '-' + version;
 var fileList = [
     'index.html'
@@ -11,7 +11,7 @@ self.addEventListener('install', function(event) {
     event.waitUntil(caches
                         .open(cache)
                         .then(function(cache) {
-                            if (enableLogs) console.log('[ServiceWorker] Caching files');
+                            if (enableLogs) console.log('[ServiceWorker] Caching files ' + fileList);
                             cache.addAll(fileList);
                         })
     );
