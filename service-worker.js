@@ -21,7 +21,7 @@ var fileList = [
     'js/main.js',
     'img/profile.jpg',
     'css/main.css',
-    'http://johnlreyes.gitlab.io/resume/resume.pdf'
+    'https://johnlreyes.gitlab.io/resume/resume.pdf'
 ];
 
 self.addEventListener('install', function(event) {
