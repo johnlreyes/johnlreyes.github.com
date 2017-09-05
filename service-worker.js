@@ -6,6 +6,7 @@ var cache = cacheName + '-' + version;
 var fileList = [
     'index.html',
     'sw-loader.js',
+    'service-worker.js',
     'img/profile.jpg',
     'css/bootstrap.min.css',
     'css/main.css',
@@ -13,7 +14,8 @@ var fileList = [
     'js/bootstrap.min.js',
     'js/docs.min.js',
     'js/main.js',
-    'js/ie10-viewport-bug-workaround.js'
+    'js/ie10-viewport-bug-workaround.js',
+    'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'
 ];
 
 self.addEventListener('install', function(event) {
