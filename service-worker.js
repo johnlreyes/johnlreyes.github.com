@@ -1,12 +1,11 @@
 
 var enableLogs = true;
 var cacheName = 'offline';
-var version = '0905171149PM';
+var version = '0905171155PM';
 var cache = cacheName + '-' + version;
 var fileList = [
     'index.html',
     'sw-loader.js',
-    'service-worker.js',
     'img/profile.jpg',
     'css/bootstrap.min.css',
     'css/main.css',
@@ -15,7 +14,11 @@ var fileList = [
     'js/docs.min.js',
     'js/main.js',
     'js/ie10-viewport-bug-workaround.js',
-    'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'
+    'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css',
+    'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old',
+    'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3',
+    'https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2',
+    'https://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2'
 ];
 
 self.addEventListener('install', function(event) {
