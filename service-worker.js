@@ -1,7 +1,7 @@
 
 var enableLogs = true;
 var cacheName = 'offline';
-var version = '0906171213PM';
+var version = '0906171222PM';
 var cache = cacheName + '-' + version;
 var fileList = [
     'index.html',
@@ -20,7 +20,8 @@ var fileList = [
     'js/docs.min.js',
     'js/main.js',
     'img/profile.jpg',
-    'css/main.css'
+    'css/main.css',
+    'http://johnlreyes.gitlab.io/resume/resume.pdf'
 ];
 
 self.addEventListener('install', function(event) {
