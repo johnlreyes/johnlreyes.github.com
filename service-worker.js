@@ -1,14 +1,14 @@
 
 var enableLogs = true;
 var cacheName = 'offline';
-var version = '0.3';
+var version = '0.1';
 var cache = cacheName + '-' + version;
 var fileList = [
-    'index.html'
+    'index.html',
+    'sw-loader.js'
 ];
 
 self.addEventListener('install', function(event) {
-    if (enableLogs) console.log('[install]');
     event.waitUntil(caches
                         .open(cache)
                         .then(function(cache) {
@@ -19,8 +19,6 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-    if (enableLogs) console.log('[fetch]');
-    if (enableLogs) console.log('[fetch] event.request=', event.request);
     event.respondWith(caches.match(event.request)
                         .then(function(response) {
                             if (response) {
@@ -35,7 +33,6 @@ self.addEventListener('fetch', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-    if (enableLogs) console.log('[activate]');
     event.waitUntil(caches.keys()
                         .then(function(keyList) {
                             if (enableLogs) console.log('keyList='+keyList);
