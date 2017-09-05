@@ -1,7 +1,7 @@
 
 var enableLogs = true;
 var cacheName = 'offline';
-var version = '0.2';
+var version = '0.3';
 var cache = cacheName + '-' + version;
 var fileList = [
     'index.html'
