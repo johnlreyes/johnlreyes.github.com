@@ -1,11 +1,19 @@
 
 var enableLogs = true;
 var cacheName = 'offline';
-var version = '0905171138PM';
+var version = '0905171143PM';
 var cache = cacheName + '-' + version;
 var fileList = [
     'index.html',
-    'sw-loader.js'
+    'sw-loader.js',
+    'img/profile.jpg',
+    'css/bootstrap.min.css',
+    'css/main.css',
+    'js/jquery.min.js',
+    'js/bootstrap.min.js',
+    'js/docs.min.js',
+    'js/main.js',
+    'js/ie10-viewport-bug-workaround.js'
 ];
 
 self.addEventListener('install', function(event) {
