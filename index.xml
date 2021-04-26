@@ -8,7 +8,6 @@
     <language>en-US</language>
     
 	<atom:link href="http://johnlreyes.github.io/front-page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
   </channel>
 </rss>
